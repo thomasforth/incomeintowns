@@ -10,7 +10,7 @@ The code is written in .NET Core and will run on any computer (Linux, Mac, Windo
 The links in the source code are absolute and will need changing.
 
 ## Output
-A single table is output, and included in this repo, with the following columns,
+A single table is output, and included in this repo as *PlacesAndIncomes.csv*, with the following columns,
 * Name
 * NAIAHC (Net annual income after housing costs).
 * CityTownClassification
