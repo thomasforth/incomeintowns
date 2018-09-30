@@ -1,5 +1,8 @@
 # Income in towns
-Calculating net annual income per head (after housing costs) for villages, town, and cities in England and Wales
+Calculating net annual income per head (after housing costs) for villages, town, and cities in England and Wales.
+
+## WARNING
+The ONS do not collect enough data to accurately estimate income at MSOA level. And so they use a model to calculate their best guess. I take this model output, match MSOAs to the places defined by Centre for Towns and The House of Commons Library (whose methods differ slightly, but The House of Commons data is easier to find) and then calculate the average net annual income per head (after housing costs) for that place. This is an average of an average figure created via a model. IF YOU DON'T UNDERSTAND HOW THE STATISTIC WAS CREATED, BE CAREFUL ABOUT USING IT.
 
 ## How to run
 The code is written in .NET Core and will run on any computer (Linux, Mac, Windows) with the .NET runtime installed. I include the Visual Studio Solution which makes it easy to run on Windows.
