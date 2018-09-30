@@ -15,4 +15,7 @@ A single table is output, and included in this repo, with the following columns,
 
 ## Sources
 * [House of Commons Library version of Centre for Towns' City & Town Classification.]( https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-8322#fullreport)
-* [Small area income estimates for middle layer super output areas, England and Wales, from the ONS]( https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/smallareaincomeestimatesformiddlelayersuperoutputareasenglandandwales)
+* [Small area income estimates for middle layer super output areas, England and Wales, from the ONS]( https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/smallareaincomeestimatesformiddlelayersuperoutputareasenglandandwales). I use the *Net annual income (equivalised) after housing costs* CSV.
+
+## Thanks
+Without the work of [The Centre for Towns](https://www.centrefortowns.org/) and recent improvement to small area statistics by the ONS, this would have been possible.
