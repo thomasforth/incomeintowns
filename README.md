@@ -15,6 +15,8 @@ A single table is output, and included in this repo as *PlacesAndIncomes.csv*, w
 * NAIAHC (Net annual income after housing costs).
 * CityTownClassification
 * Population
+* region_name
+* la_name
 
 ## Sources
 * [House of Commons Library version of Centre for Towns' City & Town Classification.]( https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-8322#fullreport)

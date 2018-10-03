@@ -59,6 +59,9 @@ namespace TownIncome
                 PlaceAndIncome placeAndIncome = new PlaceAndIncome();
                 placeAndIncome.Name = place;
                 placeAndIncome.CityTownClassification = OAsInThisPlace.FirstOrDefault().citytownclassification;
+                placeAndIncome.region_name = OAsInThisPlace.FirstOrDefault().region_name;
+                placeAndIncome.la_name = OAsInThisPlace.FirstOrDefault().la_name;
+
                 placeAndIncome.NAIAHC = totalNAIAC / totalPopulation;
                 placeAndIncome.Population = totalPopulation;
                 PlacesAndIncomes.Add(placeAndIncome);
@@ -108,5 +111,7 @@ namespace TownIncome
         public double NAIAHC { get; set; }
         public string CityTownClassification { get; set; }
         public double Population { get; set; }
+        public string region_name { get; set; }
+        public string la_name { get; set; }
     }
 }
