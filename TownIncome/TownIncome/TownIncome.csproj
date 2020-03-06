@@ -2,11 +2,37 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CsvHelper" Version="7.1.1" />
+    <None Remove="Assets\1netannualincomeahc.csv" />
+    <None Remove="Assets\CombinedSmallIncomeData.csv" />
+    <None Remove="Assets\oa-classification-csv.csv" />
+    <None Remove="Assets\PlaceGroupings.csv" />
+    <None Remove="Assets\wu03ew_msoa.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\1netannualincomeahc.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\CombinedSmallIncomeData.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\oa-classification-csv.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\PlaceGroupings.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\wu03ew_msoa.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.1" />
   </ItemGroup>
 
 </Project>
